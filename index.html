@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- google font link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome cdn link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind and daisy ui link here -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom color  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                paragraph:'#777',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-manrope">
+    <!-- header section  -->
+    <header class="container mx-auto p-10">
+            <!-- banner section -->
+            <div class="hero min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+                  <div>
+                    <h1 class="text-3xl md:text-7xl font-extrabold">It's good <br>
+                        tea time at <br>
+                         The Tea House</h1>
+                    <p class="py-6 text-paragraph text-xs md:text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class=" rounded-lg gap-4 px-4 md:px-10 py-2 md:py-5 flex justify-center items-center bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i> </button>
+                  </div>
+                  <div class="relative">
+                    <img src="./images/banner.png" class=" rounded-lg " />
+                    <div class="flex gap-3 shadow-xl w-fit py-0 md:py-4 px-0 md:px-4 absolute -bottom-[0.75rem] md:bottom-1 left-0 md:left-[20%] rounded-lg bg-white">
+                        <div><i class="fa-solid fa-star text-3xl text-amber-500"></i></div>
+                        <div class="">
+                            <h3 class="text-2xl font-bold">5.00</h3>
+                            <p class="text-paragraph text-xs">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+    </header>
+</body>
+
+</html>
