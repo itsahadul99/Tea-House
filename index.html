@@ -11,25 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- font-awesome cdn link here -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwind and daisy ui link here -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind custom color  -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                paragraph:'#777',
-                heading:'#1C1C1C'
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        paragraph: '#777',
+                        heading: '#1C1C1C'
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -39,74 +41,80 @@
 <body class="font-manrope">
     <!-- header section  -->
     <header class="container mx-auto p-10">
-            <!-- banner section -->
-            <div class="hero">
-                <div class="hero-content flex-col lg:flex-row">
-                  <div>
+        <!-- banner section -->
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
                     <h1 class="text-3xl md:text-7xl font-extrabold text-heading">It's good <br>
                         tea time at <br>
-                         The Tea House</h1>
-                    <p class="py-6 text-paragraph text-xs md:text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                    <button class=" rounded-lg gap-4 px-4 md:px-10 py-2 md:py-5 flex justify-center items-center bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i> </button>
-                  </div>
-                  <div class="relative">
+                        The Tea House</h1>
+                    <p class="py-6 text-paragraph text-xs md:text-lg">Tea and Botanical Solutions Supplier Give Optimum
+                        Satisfaction To Your Taste Buds.</p>
+                    <button
+                        class=" rounded-lg gap-4 px-4 md:px-10 py-2 md:py-5 flex justify-center items-center bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Explore
+                        More <i class="fa-solid fa-arrow-trend-up"></i> </button>
+                </div>
+                <div class="relative">
                     <img src="./images/banner.png" class=" rounded-lg " />
-                    <div class="flex gap-3 shadow-xl w-fit py-0 md:py-4 px-0 md:px-4 absolute -bottom-[0.75rem] md:bottom-1 left-0 md:left-[20%] rounded-lg bg-white">
+                    <div
+                        class="flex gap-3 shadow-xl w-fit py-0 md:py-4 px-0 md:px-4 absolute -bottom-[0.75rem] md:bottom-1 left-0 md:left-[20%] rounded-lg bg-white">
                         <div><i class="fa-solid fa-star text-3xl text-amber-500"></i></div>
                         <div class="">
                             <h3 class="text-2xl font-bold">5.00</h3>
                             <p class="text-paragraph text-xs">Trust Pilot Ratings</p>
                         </div>
                     </div>
-                  </div>
-                  
                 </div>
-              </div>
+
+            </div>
+        </div>
     </header>
     <main class="container mx-auto my-10">
         <!-- Featured section -->
         <section class="p-10">
             <h1 class="text-4xl font-bold text-center text-heading">Our Featured Products</h1>
             <div class="flex justify-center text-center my-5">
-                <p class="text-paragraph text-sm font-medium max-w-[900px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="text-paragraph text-sm font-medium max-w-[900px]">There are many variations of passages of
+                    Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+                    or randomised words which don't look even slightly believable. </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
                 <div class="card bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] ">
                     <figure class="px-10 pt-10">
-                      <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title text-heading">Milk Tea</h2>
-                      <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
+                        <h2 class="card-title text-heading">Milk Tea</h2>
+                        <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
                     </div>
-                  </div>
+                </div>
                 <div class="card bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] ">
                     <figure class="px-10 pt-10">
-                      <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title text-heading">Black Tea</h2>
-                      <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
+                        <h2 class="card-title text-heading">Black Tea</h2>
+                        <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
                     </div>
-                  </div>
+                </div>
                 <div class="card bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] ">
                     <figure class="px-10 pt-10">
-                      <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title text-heading">Lemon Tea</h2>
-                      <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
+                        <h2 class="card-title text-heading">Lemon Tea</h2>
+                        <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
                     </div>
-                  </div>
+                </div>
                 <div class="card bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f4] ">
                     <figure class="px-10 pt-10">
-                      <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title text-heading">Green Tea</h2>
-                      <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
+                        <h2 class="card-title text-heading">Green Tea</h2>
+                        <p class="font-semibold text-paragraph">Creamer could be replaced by fresh milk</p>
                     </div>
-                  </div>
+                </div>
             </div>
         </section>
         <!-- great tea fresh tea section -->
@@ -124,15 +132,79 @@
                 </div>
                 <div class="flex-1 space-y-8">
                     <h1 class="text-4xl font-bold text-heading">Great Tea, Freshly <br> Presented</h1>
-                    <p class="text-paragraph text-xs">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                    <p class="text-paragraph text-xs">The meaning of gong cha is chanese is to provide the best tea to
+                        emperor from all possessions . It represents the highest quality and self expectation.
+                        Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of good words
+                        of mouth and unique customized service orginated from Taiwan.</p>
                     <h3 class="text-xl font-bold text-heading">Unique Taste</h3>
-                    <p class="text-paragraph text-xs">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <p class="text-paragraph text-xs">A Unique and different style from other teapots gives a luxurious
+                        and minimalist impression</p>
                     <h3 class="text-xl font-bold text-heading">Premium Quality</h3>
-                    <p class="text-paragraph text-xs">A Unique and different style from other teapots <br> gives a luxurious and minimalist impression</p>
+                    <p class="text-paragraph text-xs">A Unique and different style from other teapots <br> gives a
+                        luxurious and minimalist impression</p>
                 </div>
             </div>
         </section>
-        
+        <!-- meet our clients section -->
+        <section class="p-10">
+            <div class="bg-gradient-to-r w-full from-[#F00] to-[#FF8938] text-white opacity-75">
+                <div class="hero py-1 px-1 md:py-10 md:px-10">
+                    <div class="hero-content flex-col lg:flex-row gap-12 justify-between">
+                        <div class="flex-1">
+                            <h1 class="text-5xl font-bold text-heading">Meet Our Super <br> Clients</h1>
+                            <p class="py-6">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour, or randomised words
+                                which don't look even slightly believable. </p>
+                            <button class="btn px-6">Show All</button>
+                        </div>
+                        <!-- review container -->
+                        <div class="flex-1">
+                            <!-- next review -->
+                            <div
+                                class=" bg-white relative rounded-lg opacity-40 z-10 w-full md:w-2/3 left-5 md:left-16 top-0 md:top-5">
+                                <div class="p-10 ">
+                                    <p class="text-sm text-paragraph mb-14">We are providing the best and suitable home
+                                        insurance services for the people who are interested to treatment</p>
+                                    <h1 class="text-xl font-bold text-black">Ilum Yuda</h1>
+                                    <p class="text-[#5d5a6f] font-semibold">Businessman</p>
+                                </div>
+                                <div class="absolute -top-5 -left-7 border-4 rounded-full bg-white">
+                                    <img src="./images/client.png" class="border rounded-full" />
+                                </div>
+                                <img src="./images/circles.png" alt="" class="absolute right-10 bottom-8">
+                            </div>
+                            <div class=" bg-white relative rounded-lg z-20 pl-10 py-10 w-full md:w-2/3">
+                                <div class="p-10 ">
+                                    <p class="text-sm text-paragraph mb-14">We are providing the best and suitable home
+                                        insurance services for the people who are interested to treatment</p>
+                                    <h1 class="text-xl font-bold text-black">Ilum Yuda</h1>
+                                    <p class="text-[#5d5a6f] font-semibold">Businessman</p>
+                                </div>
+                                <div class="absolute -top-5 -left-7 border-4 rounded-full bg-white">
+                                    <img src="./images/client.png" class="border rounded-full" />
+                                </div>
+                                <img src="./images/circles.png" alt="" class="absolute right-10 bottom-8">
+                            </div>
+                            <div class=" bg-white relative rounded-lg opacity-40 z-10  w-full md:w-2/3 md:left-16 bottom-1 md:bottom-5">
+                                <div class="p-10 ">
+                                    <p class="text-sm text-paragraph mb-14">We are providing the best and suitable home
+                                        insurance services for the people who are interested to treatment</p>
+                                    <h1 class="text-xl font-bold text-black">Ilum Yuda</h1>
+                                    <p class="text-[#5d5a6f] font-semibold">Businessman</p>
+                                </div>
+                                <div class="absolute -top-5 -left-7 border-4 rounded-full bg-white">
+                                    <img src="./images/client.png" class="border rounded-full" />
+                                </div>
+                                <img src="./images/circles.png" alt="" class="absolute right-10 bottom-8">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 </body>
 
